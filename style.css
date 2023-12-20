@@ -1,0 +1,20 @@
+.calender ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 1em;
+}
+.calender li{
+    background-color: gray;
+    list-style: none;
+    text-align: center;
+    font-size: 3em;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cale{
+    text-align: center;
+    font-size:  2em;
+}
